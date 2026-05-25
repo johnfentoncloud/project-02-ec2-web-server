@@ -1,0 +1,157 @@
+<html>
+<head>
+    <title>John Fenton AWS Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+	    scroll-behavior: smooth;
+        }
+
+        nav {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            color: white;
+	    border-bottom: 2px solid #38bdf8;
+            margin: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            color: #38bdf8;
+        }
+
+        .hero p {
+            font-size: 22px;
+            color: #cbd5e1;
+        }
+
+        .section {
+            background: #1e293b;
+            margin: 30px;
+            padding: 30px;
+            border-radius: 20px;
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
+
+        ul {
+            line-height: 2;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #94a3b8;
+        }
+	.hero-button {
+	    display: inline-block;
+    	    margin-top: 30px;
+    	    padding: 15px 30px;
+    	    background: #2563eb;
+            color: white;
+       	    text-decoration: none;
+    	    border-radius: 12px;
+    	    font-weight: bold;
+    	    transition: 0.3s;
+    	    box-shadow: 0 0 15px rgba(37,99,235,0.5);
+	}
+
+	.hero-button:hover {
+    	    background: #38bdf8;
+    	    transform: scale(1.05);
+    	    box-shadow: 0 0 25px rgba(56,189,248,0.8);
+	}
+	.project-card {
+    	    background: #0f172a;
+    	    padding: 20px;
+    	    margin: 20px 0;
+    	    border-radius: 15px;
+    	    border-left: 5px solid #38bdf8;
+	}
+
+	.project-card h3 {
+    	    color: #38bdf8;
+	}
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+    </nav>
+	
+		<div class="hero">
+    	<h1>John Fenton</h1>
+
+    	<p>
+        	Aspiring Cloud Engineer | AWS Student | Fitness Coach
+    	</p>
+
+    	<a href="#projects" class="hero-button">
+        	View My Projects
+    	</a>
+    </div>
+
+    <div id="about" class="section">
+        <h2>About Me</h2>
+
+        <p>
+            I am building hands-on AWS cloud projects while transitioning
+            into a cloud engineering career. This website is hosted on an
+            AWS EC2 Linux server running Apache.
+        </p>
+    </div>
+
+    <div id="skills" class="section">
+        <h2>Current Skills</h2>
+
+        <ul>
+            <li>AWS EC2</li>
+            <li>Linux Terminal</li>
+            <li>SSH Connections</li>
+            <li>Apache Web Hosting</li>
+            <li>HTML & CSS Basics</li>
+        </ul>
+    </div>
+
+	<div id="projects" class="section">
+    	    <h2>Projects</h2>
+
+    	<div class="project-card">
+            <h3>Project-01-S3 Static Website</h3>
+            <p>Built and hosted a static website using Amazon S3.</p>
+    	</div>
+
+    	<div class="project-card">
+            <h3>Project-02-EC2 Linux Web Server</h3>
+            <p>Launched an EC2 instance, connected with SSH, installed Apache, and deployed a custom website from Linux.</p>
+    	</div>
+    </div>
+
+    <footer>
+        Built by John Fenton on AWS
+    </footer>
+
+</body>
+</html>
