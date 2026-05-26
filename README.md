@@ -34,6 +34,7 @@ The goal of this project was to gain hands-on experience with:
 - Responsive navigation bar
 - Custom color scheme
 - Live public web server
+- Persistent public IP using Elastic IP
 
 ---
 
@@ -46,6 +47,16 @@ The goal of this project was to gain hands-on experience with:
 - Managing permissions
 - Restarting services
 - Documentation and screenshots
+
+---
+
+## Elastic IP Test
+
+The EC2 instance was assigned an Elastic IP address so the hosted website keeps the same public IP address even after stopping and starting the instance.
+
+Tested URL:
+
+http://44.219.229.107
 
 ---
 
