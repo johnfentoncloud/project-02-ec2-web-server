@@ -14,6 +14,12 @@ The goal of this project was to gain hands-on experience with:
 
 ---
 
+## Architecture Diagram
+
+![EC2 Architecture Diagram](diagrams/ec2-architecture-diagram.png)
+
+---
+
 ## AWS Services Used
 - EC2
 - Security Groups
